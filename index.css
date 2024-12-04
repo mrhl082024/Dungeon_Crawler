@@ -28,4 +28,10 @@ body {
 #restart-button {
   width: 30svw;
   height: 5svh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(69, 231, 199, 1) 90%
+  );
 }
