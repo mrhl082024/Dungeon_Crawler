@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/ds3_irithyll_bridge.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#navbar {
+  width: 100%;
+  height: 10svh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(130, 191, 206, 1) 90%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1.1rem;
+}
+
+#restart-button {
+  width: 30svw;
+  height: 5svh;
+}
