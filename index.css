@@ -40,5 +40,14 @@
 }
 
 #action-bar {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10svh;
+}
+
+#start-button {
+  width: 40%;
+  align-self: center;
+  height: 3rem;
 }
